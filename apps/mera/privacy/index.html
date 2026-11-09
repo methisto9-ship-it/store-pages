@@ -1,0 +1,49 @@
+<title>Мера: конфиденциальность</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: одна колонка текста, как лист с миллиметровой шкалой по левому краю */
+:root {
+  --bg: #fbfaf6; --fg: #1c1d21; --muted: #5d6068; --rule: #d9d4c4; --accent: #c98a00;
+  --display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #16171a; --fg: #ecebe6; --muted: #a3a59f; --rule: #34353a; --accent: #f2b52a; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #16171a; --fg: #ecebe6; --muted: #a3a59f; --rule: #34353a; --accent: #f2b52a; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 56px; }
+main { max-width: 640px; margin: 0 auto; border-left: 2px solid var(--accent); padding-left: 20px;
+  background-image: repeating-linear-gradient(to bottom, var(--rule) 0 1px, transparent 1px 10px); background-size: 8px 100%; background-repeat: no-repeat; padding-inline-start: 28px; }
+h1 { font: 600 2rem/1.15 var(--display); margin: 0 0 4px; text-wrap: balance; }
+.sub { color: var(--muted); margin: 0 0 28px; }
+h2 { font: 600 1.15rem/1.3 var(--display); margin: 28px 0 6px; letter-spacing: .01em; }
+p { margin: 0 0 10px; }
+.meta { color: var(--muted); font-size: .9rem; margin-top: 36px; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<main>
+  <h1>Мера: политика конфиденциальности</h1>
+  <p class="sub">Приложение для измерений на iPhone. Kolobovdjp LLC.</p>
+
+  <h2>Коротко</h2>
+  <p>«Мера» не собирает, не хранит на серверах и никому не передаёт ваши данные. В приложении нет рекламы, аналитики, учётных записей и сторонних библиотек.</p>
+
+  <h2>Камера</h2>
+  <p>Используется только для AR-измерений и плана комнаты. Изображение обрабатывается на телефоне и никуда не записывается.</p>
+
+  <h2>Микрофон</h2>
+  <p>Используется только шумомером: приложение считает громкость, звук не записывается и не сохраняется.</p>
+
+  <h2>Датчики</h2>
+  <p>Датчики движения, магнитометр и барометр используются только для уровня, компаса и высотомера.</p>
+
+  <h2>Что хранится</h2>
+  <p>Настройки и калибровка линейки хранятся только на вашем iPhone и удаляются вместе с приложением. 3D-модель комнаты сохраняется, только если вы сами нажмёте «Сохранить» и отправите её.</p>
+
+  <h2>Privacy in English</h2>
+  <p>Mera does not collect, store on servers, or share any personal data. There are no ads, analytics, accounts or third-party SDKs. The camera, microphone and motion sensors are used only on the device for measurements; nothing is recorded or transmitted.</p>
+
+  <h2>Поддержка</h2>
+  <p>Вопросы и пожелания оставляйте в отзыве в App Store, мы их читаем. Если линейка расходится с настоящей, откалибруйте её в настройках по банковской карте.</p>
+
+  <p class="meta">Действует с 9 ноября 2026 года.</p>
+</main>
